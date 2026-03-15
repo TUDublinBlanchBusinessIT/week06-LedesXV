@@ -32,3 +32,7 @@ Route::get('product/displaygrid',
 Route::get('product/additem/{id}',
 'App\Http\Controllers\productController@additem')
 ->name('products.additem');
+
+Route::get('product/emptycart',
+'App\Http\Controllers\productController@emptycart')
+->name('product.emptycart');
