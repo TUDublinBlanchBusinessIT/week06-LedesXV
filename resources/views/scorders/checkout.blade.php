@@ -25,10 +25,8 @@ type="text" name="productid[]" readonly value="{{ $product->id
 <td> <input size="3" style="border:none"
 class="qty" type="text" name="quantity[]" readonly value="<?php echo $lineitem['qty'] ?>"> </td>
 <td>
-<button type="button" class="btn btn-default
-add"><span class="glyphicon glyphicon-plus"/></button>
-<button type="button" class="btn btn-default
-subtract"><span class="glyphicon glyphicon-minus"/></button>
+<button type="button" class="btn btn-defaultadd"><span class="glyphicon glyphicon-plus"/></button>
+<button type="button" class="btn btn-defaultsubtract"><span class="glyphicon glyphicon-minus"/></button>
 <button type="button" class="btn btn-default
 value="remove" onClick="$(this).closest('tr').remove();"><span
 class="glyphicon glyphicon-remove"/></button>
